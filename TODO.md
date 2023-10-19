@@ -13,6 +13,7 @@
 - [ ] auto-updates
   - [ ] [rollout_wariness](https://docs.fedoraproject.org/en-US/fedora-coreos/auto-updates/#_wariness_to_updates)
   - [ ] [finalization strategy](https://docs.fedoraproject.org/en-US/fedora-coreos/auto-updates/#_os_update_finalization)
+- [ ] [firewall openings](https://docs.k3s.io/advanced#red-hat-enterprise-linux--centos--fedora)
 
 ### In Progress
 
