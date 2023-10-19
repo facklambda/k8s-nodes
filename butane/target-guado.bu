@@ -28,6 +28,10 @@ storage:
       format: ext4
       with_mount_unit: true
   files:
+    - path: /etc/hostname
+      mode: 0644
+      contents:
+        inline: euclid-testing
     - path: /usr/local/bin/get-k3s
       mode: 0755
       contents:
