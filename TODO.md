@@ -5,6 +5,7 @@
 - [ ] clevis/tang  
   - [ ] tang server within k3s cluster
   - [ ] dev box install of clevis
+- [ ] pxe boot for automated provisioning
 - [ ] remote access so i can work on this from elsewhere
   - [ ] node(s) on do
   - [ ] nodes(s) on capsul.org
