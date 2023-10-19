@@ -36,6 +36,16 @@
         "wipeTable": false
       }
     ],
+    "files": [
+      {
+        "path": "/usr/local/bin/get-k3s",
+        "contents": {
+          "compression": "",
+          "source": "data:;base64,IyEvdXNyL2Jpbi9lbnYgc2gKbWFpbigpIHsKICBleHBvcnQgSzNTX0tVQkVDT05GSUdfTU9ERT0iNjQ0IgoKICBjdXJsIC1zZkwgaHR0cHM6Ly9nZXQuazNzLmlvIHwgc2ggLQogIHJldHVybiAwCn0KbWFpbgo="
+        },
+        "mode": 493
+      }
+    ],
     "filesystems": [
       {
         "device": "/dev/disk/by-partlabel/var",
@@ -52,9 +62,9 @@
         "name": "var.mount"
       },
       {
-        "contents": "[Unit]\nDescription=get k3s\nWants=network-online.target\nAfter=network-online.target\nBefore=zincati.service\nConditionPathExists=|!/usr/local/bin/k3s\n\n[Service]\nType=oneshot\nRemainAfterExit=yes\nExecStart=curl -sfL https://get.k3s.io | sh -\n\n[Install]\nWantedBy=multi-user.target   ",
+        "contents": "[Unit]\nAfter=network-online.target\nWants=network-online.target\nBefore=systemd-user-sessions.service\nOnFailure=emergency.target\nOnFailureJobMode=replace-irreversibly\nConditionPathExists=!/var/lib/k3s-installed\n\n[Service]\nRemainAfterExit=yes\nType=oneshot\nExecStart=/usr/local/bin/get-k3s\nExecStartPost=/usr/bin/touch /var/lib/k3s-installed\nStandardOutput=kmsg+console\nStandardError=kmsg+console\n\n[Install]\nWantedBy=multi-user.target",
         "enabled": true,
-        "name": "get-k3s.service"
+        "name": "run-k3s-installer.service"
       }
     ]
   }
