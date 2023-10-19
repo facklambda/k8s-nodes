@@ -12,7 +12,7 @@
         "name": "fack",
         "sshAuthorizedKeys": [
           "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB6TjYbZM7LPnw2savIiMOZDf8te9X2VBgxT7oQdIHvU",
-          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPe2ZTGl/Eeg8+LcD/Xd+M/++2X6y8KeClSKHMpW/JqI"
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOdCPkS0qszKCyGoXDZLjDGoSnDhJ5miNe/R6tqZ5/fG"
         ]
       }
     ]
