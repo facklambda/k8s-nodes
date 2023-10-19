@@ -9,11 +9,19 @@
 - [ ] remote access so i can work on this from elsewhere
   - [ ] node(s) on do
   - [ ] nodes(s) on capsul.org
+- [ ] iterable test environment (automatic)
+- [ ] auto-updates
+  - [ ] [rollout_wariness](https://docs.fedoraproject.org/en-US/fedora-coreos/auto-updates/#_wariness_to_updates)
+  - [ ] [finalization strategy](https://docs.fedoraproject.org/en-US/fedora-coreos/auto-updates/#_os_update_finalization)
 
 ### In Progress
 
 - [ ] k3s installation [ref](https://github.com/k3s-io/k3s/issues/7666)
+  - [ ] automate k3s cluster assembly
 
 ### Done ✓
 
-- [x] Create my first TODO.md  
+- [x] Create my first TODO.md 
+- [x] hostname generation
+- [x] installation via remote ignition urls
+- [x] iterable test environment (manual)

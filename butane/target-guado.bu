@@ -31,7 +31,7 @@ storage:
     - path: /etc/hostname
       mode: 0644
       contents:
-        inline: euclid-testing
+        inline: euclid-stable
     - path: /usr/local/bin/get-k3s
       mode: 0755
       contents:

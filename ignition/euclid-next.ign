@@ -41,7 +41,7 @@
         "path": "/etc/hostname",
         "contents": {
           "compression": "",
-          "source": "data:,euclid-testing"
+          "source": "data:,euclid-next"
         },
         "mode": 420
       },
