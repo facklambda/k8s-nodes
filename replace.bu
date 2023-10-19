@@ -1,0 +1,6 @@
+variant: fcos
+version: 1.5.0
+ignition:
+  config:
+    replace:
+      source: https://github.com/facklambda/k8s-nodes/target-replace.ign
