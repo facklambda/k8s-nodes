@@ -27,3 +27,22 @@ storage:
       device: /dev/disk/by-partlabel/var
       format: ext4
       with_mount_unit: true
+systemd:
+  units:
+    - name: "get-k3s.service"
+      enabled: true
+      contents: |
+        [Unit]
+        Description=get k3s
+        Wants=network-online.target
+        After=network-online.target
+        Before=zincati.service
+        ConditionPathExists=|!/usr/local/bin/k3s
+
+        [Service]
+        Type=oneshot
+        RemainAfterExit=yes
+        ExecStart=curl -sfL https://get.k3s.io | sh -
+
+        [Install]
+        WantedBy=multi-user.target   
