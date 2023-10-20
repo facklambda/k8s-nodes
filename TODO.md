@@ -16,9 +16,10 @@
   - [ ] llm hosting & data pipeline (i fantasize about cyberia one day having it's own CAMERON based on the chats of all it's willingly read members)
 - [ ] pxe boot for automated provisioning
 - [ ] remote access so i can work on this from elsewhere
+- [ ] spread like fire
   - [ ] node(s) on do
   - [ ] nodes(s) on capsul.org
-  - [ ] nodes at my club house
+  - [ ] nodes at our club house
   - [ ] nodes at your haus
 - [ ] iterable test environment (automatic)
 - [ ] auto-updates
