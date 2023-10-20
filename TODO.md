@@ -30,7 +30,7 @@
 - [ ] write a guide on how to utilize cluster
 - [ ] create app of apps
 - [ ] host a workshop and bring a bunch of chromeboxes and have all my friends start from scratch but finish with a system that can join the cluster
-- [ ] write my autoscaler extension lol
+- [ ] write my [autoscaler extension](https://github.com/facklambda/ecu) lol
 - [ ] write manifesto (find [some](https://web.archive.org/web/20190310071427/https://telecomix.org/firstmanifesto.txt) inspiration)
 - [ ] find [friends](https://chat.cyberia.club)
 - [ ] build/hijack/liberate infrastructure
