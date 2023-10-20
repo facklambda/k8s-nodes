@@ -8,7 +8,8 @@ the purpose of this repository is to document the creation of a gitops managed k
 Currently the cluster hardware resides within my apartment, but hopefully will spread to a cloud provider operated by members of my computer club, as well as colocated within our club house.
 
 As of right now the hardware consists of:
-    * 3 asus cn62 chromeboxes running https://mrchromebox.tech/ firmware
+    
+* 3 asus cn62 chromeboxes running https://mrchromebox.tech/ firmware
 
 ## why
 the reason i find kubernetes so compelling, is it enables a homogenous interface to manage deployments of software across heterogenous hardware. i use gitops at work, but not in a particularly interesting way, so i'd like to try doing something interesting here.
