@@ -1,6 +1,5 @@
 ### Todo
 
-- [ ] argocd setup
 - [ ] k3s cluster boostrapping  
 - [ ] clevis/tang  
   - [ ] tang server within k3s cluster
@@ -19,6 +18,8 @@
 
 ### In Progress
 - [ ] automate k3s cluster assembly
+- [ ] argocd setup
+
 
 ### Done ✓
 
