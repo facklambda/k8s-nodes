@@ -1,6 +1,0 @@
-variant: fcos
-version: 1.5.0
-ignition:
-  config:
-    replace:
-      source: https://raw.githubusercontent.com/facklambda/k8s-nodes/main/ignition/target-guado.ign

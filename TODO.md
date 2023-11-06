@@ -34,10 +34,15 @@
 - [ ] write manifesto (find [some](https://web.archive.org/web/20190310071427/https://telecomix.org/firstmanifesto.txt) inspiration)
 - [ ] find [friends](https://chat.cyberia.club)
 - [ ] build/hijack/liberate infrastructure
+- [ ] gpg code signing + docs on how to do it
+- [ ] create a post-install script for coreos that notifies cluster, that fresh, unprovisioned node is ready for kube assimilation
+- [ ] 
 
 ### In Progress
+- [ ] create fcos install and jump ship as fast as possible, configure/customize os after it's been installed
 - [ ] automate k3s cluster assembly
 - [ ] argocd setup
+- [ ] write local development/creation guide
 
 
 ### Done ✓

@@ -1,0 +1,10 @@
+variant: fcos
+version: 1.5.0
+ignition:
+passwd:
+  users:
+    - name: fack
+      groups: ["wheel", "sudo"]
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB6TjYbZM7LPnw2savIiMOZDf8te9X2VBgxT7oQdIHvU
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOdCPkS0qszKCyGoXDZLjDGoSnDhJ5miNe/R6tqZ5/fG
