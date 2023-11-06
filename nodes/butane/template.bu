@@ -3,4 +3,8 @@ version: 1.5.0
 ignition:
   config:
     merge:
+      # Common configuration (replace with your common)
       - source: https://raw.githubusercontent.com/facklambda/k8s-nodes/main/ignition/common.ign
+      - source: https://raw.githubusercontent.com/facklambda/k8s-nodes/main/ignition/primary-disk-reuse.ign
+      # Unique configuration (replace with your unique(s))
+      #- source: https://raw.githubusercontent.com/facklambda/k8s-nodes/main/ignition/target-guado.bu

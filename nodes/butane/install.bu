@@ -1,0 +1,44 @@
+# Fedora CoreOS stream
+stream: stable
+# Manually specify the image URL
+# image-url: URL
+# Manually specify a local image file
+#image-file: path
+# Embed an Ignition config from a file
+#ignition-file: path
+# Embed an Ignition config from a URL
+ignition-url: https://raw.githubusercontent.com/facklambda/kube-mate/main/nodes/ignition/guado.ign
+# Digest (type-value) of the Ignition config
+ignition-hash: sha512-
+# Target CPU architecture
+architecture: name
+# Override the Ignition platform ID
+platform: name
+# Kernel and bootloader console
+console: [spec, spec]
+# Append default kernel arguments
+append-karg: [arg, arg]
+# Delete default kernel arguments
+delete-karg: [arg, arg]
+# Copy network config from install environment
+copy-network: true
+# Source directory for copy-network
+network-dir: path
+# Save partitions with this label glob
+save-partlabel: [glob, glob]
+# Save partitions with this number or range
+save-partindex: [id-or-range, id-or-range]
+# Force offline installation
+offline: true
+# Allow unsigned image
+insecure: true
+# Allow Ignition URL without HTTPS or hash
+insecure-ignition: true
+# Base URL for CoreOS stream metadata
+stream-base-url: URL
+# Don't clear partition table on error
+preserve-on-error: true
+# Fetch retries, or string "infinite"
+fetch-retries: N
+# Destination device
+dest-device: path

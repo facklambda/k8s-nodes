@@ -1,0 +1,44 @@
+# Fedora CoreOS stream
+stream: stable
+# Manually specify the image URL
+# image-url: URL
+# # Manually specify a local image file
+# image-file: path
+# # Embed an Ignition config from a file
+# ignition-file: path
+# Embed an Ignition config from a URL
+ignition-url: https://raw.githubusercontent.com/facklambda/kube-mate/main/nodes/ignition/guado.ign
+# Digest (type-value) of the Ignition config
+ignition-hash: sha512-7aaca10be04ae9d2744dd5c45b7e0d4ab44a6e9eb3b46594e8c876b3e50802cf5ab6ed512797913b9fbbdff9df849a339d84ab3c843bfe0509cadd450c33d3ab
+# Target CPU architecture
+architecture: x86_64
+# Override the Ignition platform ID
+platform: metal
+# Kernel and bootloader console
+# console: [spec, spec]
+# # Append default kernel arguments
+# append-karg: [arg, arg]
+# # Delete default kernel arguments
+# delete-karg: [arg, arg]
+# # Copy network config from install environment
+# copy-network: true
+# # Source directory for copy-network
+# network-dir: path
+# # Save partitions with this label glob
+# save-partlabel: [glob, glob]
+# # Save partitions with this number or range
+# save-partindex: [id-or-range, id-or-range]
+# # Force offline installation
+# offline: true
+# Allow unsigned image
+insecure: false
+# Allow Ignition URL without HTTPS or hash
+insecure-ignition: false
+# Base URL for CoreOS stream metadata
+# stream-base-url: URL
+# # Don't clear partition table on error
+# preserve-on-error: true
+# Fetch retries, or string "infinite"
+fetch-retries: infinite
+# Destination device
+dest-device: /dev/sda
