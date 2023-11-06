@@ -1,3 +1,8 @@
+create custom pxe/iso image: https://coreos.github.io/coreos-installer/customizing-install/#creating-customized-iso-and-pxe-images
+
+used install.ign to generate iso to generate fcos-config.yaml, that then loads guado.ign
+
+
 `kubectl apply -f https://raw.githubusercontent.com/longhorn/longhorn/v1.5.1/deploy/longhorn.yaml`
 
 

@@ -36,10 +36,8 @@
 - [ ] build/hijack/liberate infrastructure
 - [ ] gpg code signing + docs on how to do it
 - [ ] create a post-install script for coreos that notifies cluster, that fresh, unprovisioned node is ready for kube assimilation
-- [ ] 
 
 ### In Progress
-- [ ] create fcos install and jump ship as fast as possible, configure/customize os after it's been installed
 - [ ] automate k3s cluster assembly
 - [ ] argocd setup
 - [ ] write local development/creation guide
@@ -56,3 +54,5 @@
 - [x] kubenav setup ;)
 - [x] [setup storage](https://docs.k3s.io/storage#setting-up-longhorn) 
 - [x] invalid disk capacity error
+- [x] create fcos install and jump ship as fast as possible, configure/customize os after it's been installed
+
