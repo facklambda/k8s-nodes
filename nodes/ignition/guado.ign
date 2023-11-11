@@ -33,7 +33,7 @@
             "sizeMiB": 0
           }
         ],
-        "wipeTable": true
+        "wipeTable": false
       }
     ],
     "filesystems": [
