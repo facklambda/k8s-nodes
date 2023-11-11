@@ -10,7 +10,7 @@ passwd:
 storage:
   disks:
     - device: /dev/sda
-      wipe_table: false
+      wipe_table: true
       partitions:
       - number: 4
         label: root
