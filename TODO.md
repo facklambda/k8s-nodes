@@ -36,6 +36,8 @@
 - [ ] build/hijack/liberate infrastructure
 - [ ] gpg code signing + docs on how to do it
 - [ ] create a post-install script for coreos that notifies cluster, that fresh, unprovisioned node is ready for kube assimilation
+- [ ] maintain cluster using metal3 machine/cluster api stuff https://book.metal3.io/introduction
+- [ ] create liveboot system using [tinkerbell](https://tinkerbell.org/)
 
 ### In Progress
 - [ ] automate k3s cluster assembly
