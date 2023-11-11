@@ -1,0 +1,15 @@
+{
+  "ignition": {
+    "config": {
+      "merge": [
+        {
+          "source": "https://raw.githubusercontent.com/facklambda/k8s-nodes/main/ignition/common.ign"
+        },
+        {
+          "source": "https://raw.githubusercontent.com/facklambda/k8s-nodes/main/ignition/primary-disk-reuse.ign"
+        }
+      ]
+    },
+    "version": "3.4.0"
+  }
+}
