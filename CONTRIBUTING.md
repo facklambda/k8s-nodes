@@ -4,7 +4,18 @@
 
 ### Guide:
 
-## Creating the linux host (k8s node):
+## Creating a virtual cluster using kind or k3d:
+
+~~(i can't seem to be successful with k3d on my work laptop, we'll see if i can get it working here. key references: https://k3d.io/v5.6.0/usage/advanced/podman/)~~
+
+~~1. Install k3d: `brew install k3d`~~
+~~2. start a podman machine (running fedora coreos by default :)) `podman machine init`~~
+~~3. start the newly initialized podman vm `podman machine start`~~
+
+nvm, that didn't work at all, [kind](https://kind.sigs.k8s.io/) seems like the way to go for now
+1. `brew install kind`
+
+## Creating the baremetal linux host (k8s node):
 
 ### (fedora) Core OS
 (this guide is for physical (bare metal) hardware only, I don't think it will apply outside of this situation, but the gist can be followed)
@@ -35,14 +46,17 @@ starting w/ the thumb drive iso:
 
         ^[guado.ign](./nodes/ignition/guado.ign)
 
-2. 
+2. write isos to thumb drive
+3. boot isos in read-to-provision hardware
+4. wait for install to finish, you now have a fcos box with your ssh keys and user installed, along with disks configured to be reused.
+
+### k3s setup
+
+1. install [k3sup](https://github.com/alexellis/k3sup) on your local machine (where you're doing the operating)
+    - 
 
 
-1. start with a linux host
-2. install k3s
-3. add tokens
-4. ensure network connectivity
-5. join the [chat](https://chat.cyberia.club/#/room/#kubernauts:cyberia.club)
+fin. join the [chat](https://chat.cyberia.club/#/room/#kubernauts:cyberia.club)
 
 ## Utilizing resources:
 
