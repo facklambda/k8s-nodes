@@ -10,18 +10,18 @@ passwd:
 storage:
   disks:
     - device: /dev/sda
-      wipe_table: true
+      wipe_table: false
       partitions:
-      - number: 4
-        label: root
-        # Allocate at least 8 GiB to the rootfs. See NOTE above about this.
-        size_mib: 8192
-        resize: true
-      - size_mib: 0
-        # We assign a descriptive label to the partition. This is important
-        # for referring to it in a device-agnostic way in other parts of the
-        # configuration.
-        label: var
+        - number: 4
+          label: root
+          # Allocate at least 8 GiB to the rootfs. See NOTE above about this.
+          size_mib: 8192
+          resize: true
+        - size_mib: 0
+          # We assign a descriptive label to the partition. This is important
+          # for referring to it in a device-agnostic way in other parts of the
+          # configuration.
+          label: var
   filesystems:
     - path: /var
       device: /dev/disk/by-partlabel/var
