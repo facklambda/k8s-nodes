@@ -53,8 +53,7 @@ starting w/ the thumb drive iso:
 ### k3s setup
 
 1. install [k3sup](https://github.com/alexellis/k3sup) on your local machine (where you're doing the operating)
-    - 
-
+2. 
 
 fin. join the [chat](https://chat.cyberia.club/#/room/#kubernauts:cyberia.club)
 

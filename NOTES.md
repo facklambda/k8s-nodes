@@ -19,3 +19,7 @@ https://argo-cd.readthedocs.io/en/stable/
 `kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`
 
 https://argo-cd.readthedocs.io/en/stable/getting_started/
+
+
+
+k3sup plan ./nodes/k3sup/hosts.json --user fack --ssh-key ../../.ssh/fackbookpro
