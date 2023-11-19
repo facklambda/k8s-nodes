@@ -1,0 +1,11 @@
+# Create a .env file
+cat <<EOF >.env
+FOO=Bar
+EOF
+
+cat <<EOF >./kustomization.yaml
+configMapGenerator:
+- name: example-configmap-1
+  envs:
+  - .env
+EOF

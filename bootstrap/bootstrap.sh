@@ -4,3 +4,5 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 echo "installing argo cli on local machine"
 brew install argocd
+
+kustomize argocd-cmd-params-cm

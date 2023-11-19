@@ -1,0 +1,4 @@
+argocd ingress setup:
+
+1. let's use traefik
+https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#traefik-v22

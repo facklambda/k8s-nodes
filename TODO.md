@@ -2,25 +2,30 @@
 
 - [ ] self-host
   - [ ] git repo hosting duh lol
+    - [ ] github/forejo runners
+
   - [ ] image registry
   - [ ] software mirror
   - [ ] pxe tftp/whatever the thing is
-- [ ] k3s cluster boostrapping  
+  - [ ] create liveboot system using [tinkerbell](https://tinkerbell.org/)
 - [ ] clevis/tang  
   - [ ] tang server within k3s cluster
   - [ ] dev box install of clevis
 - [ ] workload(s)
-  - [ ] github/forejo runners
   - [ ] hate to say a monero miner would be fun to have chug through some cpu cycles
-  - [ ] anything from the `self-host` subtask list
   - [ ] llm hosting & data pipeline (i fantasize about cyberia one day having it's own CAMERON based on the chats of all it's willingly read members)
-- [ ] pxe boot for automated provisioning
 - [ ] remote access so i can work on this from elsewhere
 - [ ] spread like fire
+  - [ ] host a workshop and bring a bunch of chromeboxes and have all my friends start from scratch but finish with a system that can join the cluster
   - [ ] node(s) on do
   - [ ] nodes(s) on capsul.org
   - [ ] nodes at our club house
   - [ ] nodes at your haus
+  - [ ] build/hijack/liberate infrastructure
+  - [ ] write manifesto (find [some](https://web.archive.org/web/20190310071427/https://telecomix.org/firstmanifesto.txt) inspiration)
+  - [ ] write a guide on how to contribute to cluster
+  - [ ] write a guide on how to utilize cluster
+
 - [ ] iterable test environment (automatic)
 - [ ] auto-updates
   - [ ] [rollout_wariness](https://docs.fedoraproject.org/en-US/fedora-coreos/auto-updates/#_wariness_to_updates)
@@ -29,20 +34,17 @@
 - [ ] write a guide on how to contribute to cluster
 - [ ] write a guide on how to utilize cluster
 - [ ] create app of apps
-- [ ] host a workshop and bring a bunch of chromeboxes and have all my friends start from scratch but finish with a system that can join the cluster
 - [ ] write my [autoscaler extension](https://github.com/facklambda/ecu) lol
-- [ ] write manifesto (find [some](https://web.archive.org/web/20190310071427/https://telecomix.org/firstmanifesto.txt) inspiration)
-- [ ] find [friends](https://chat.cyberia.club)
-- [ ] build/hijack/liberate infrastructure
 - [ ] gpg code signing + docs on how to do it
 - [ ] create a post-install script for coreos that notifies cluster, that fresh, unprovisioned node is ready for kube assimilation
 - [ ] maintain cluster using metal3 machine/cluster api stuff https://book.metal3.io/introduction
-- [ ] create liveboot system using [tinkerbell](https://tinkerbell.org/)
 
 ### In Progress
 - [ ] automate k3s cluster assembly
 - [ ] argocd setup
 - [ ] write local development/creation guide
+- [ ] k3s cluster boostrapping  
+
 
 
 ### Done ✓
